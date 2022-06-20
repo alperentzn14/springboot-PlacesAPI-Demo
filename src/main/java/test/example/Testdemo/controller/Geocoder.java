@@ -23,7 +23,6 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
      */
 
     @GetMapping("/getLocation")
-    //ben buraya lng,lat,radius koymam gerek.
     public Response getGeoDetails() {
         UriComponents uri=UriComponentsBuilder.newInstance().scheme("https")
                 .host("maps.googleapis.com")
